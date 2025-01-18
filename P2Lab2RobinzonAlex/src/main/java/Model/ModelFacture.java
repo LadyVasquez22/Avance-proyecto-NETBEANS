@@ -76,6 +76,7 @@ public class ModelFacture implements Interface{
     //nombre del cliente
     @Override 
     public void getData() {
+        System.out.println("Obteniendo datos del cliente");
         
     }
 }
