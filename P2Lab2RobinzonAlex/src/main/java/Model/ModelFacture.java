@@ -7,7 +7,7 @@ public class ModelFacture implements Interface{
     private String dni;
     private String email;
     private String cellPhone;
-    
+    //validaciones de las entradas
     public boolean validConfirmation = true;
 
     public ModelFacture(String lastNames, String names, String addres, String dni, String email, String cellPhone) {
@@ -72,7 +72,8 @@ public class ModelFacture implements Interface{
         
         return validConfirmation;
     }
-    
+    //productos comprados y el precio total
+    //nombre del cliente
     @Override 
     public void getData() {
         

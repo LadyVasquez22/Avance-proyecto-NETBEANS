@@ -28,6 +28,7 @@ View\SaleStore$6.class
 Controller\ControllerUser.class
 View\SaleStore.class
 Model\ModelProductCar.class
+Model\PRUEBACONEXIONGITHUB.class
 Controller\ControllerStore$3.class
 View\RecoverPassword.class
 View\AddProduct$2.class
