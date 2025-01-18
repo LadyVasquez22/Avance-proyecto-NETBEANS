@@ -1,5 +1,7 @@
 package Model;
 
+import javax.swing.JOptionPane;
+
 public class ModelFacture implements Interface{
     private String lastNames;
     private String names;
@@ -77,6 +79,13 @@ public class ModelFacture implements Interface{
     @Override 
     public void getData() {
         System.out.println("Obteniendo datos del cliente");
+        JOptionPane.showMessageDialog(null, "Productos ingresados \n" +
+                "Apellidos: " + getLastNames()+ "\n" +
+                "Nombres: "+getNames()+"\n"+
+                "Direccion: " + getAddres()+ "\n" +
+                "Cedula: " + getDni()+ "\n" +
+                "Email: " + getEmail()+ "\n" +
+                "Celular: " + getCellPhone());
         
     }
 }
