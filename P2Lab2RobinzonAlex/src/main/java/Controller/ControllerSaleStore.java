@@ -14,6 +14,8 @@ import org.bson.Document;
 import org.bson.conversions.Bson;
 import org.bson.types.ObjectId;
 
+//PRUEBA SI FUNCIONA EL SUBIR ARCHIVOS 
+
 public class ControllerSaleStore {
 
     SaleStore storeMenuSecond;
@@ -224,6 +226,7 @@ public class ControllerSaleStore {
             } else {
                 JOptionPane.showMessageDialog(storeMenuSecond, "Cantidad inválida. Debe ser mayor que 0 y menor o igual al stock actual. \n"
                         + "EDITE el campo cantidad pedido y presione ENTER antes de añadir al carrito.");
+                JOptionPane.showMessageDialog(storeMenuSecond, cantidadObj);;
             }
         } else {
             JOptionPane.showMessageDialog(storeMenuSecond, "Seleccione un producto para añadir al carrito.");
